@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>LETS SPEND OUR VALENTINE HERE</title>
+	<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+	<div class="tampil" id="tampil">
+		<div class="tampil-body">
+			<div>
+				<h1>SELAMAT DATANG DI RUMAH KITA</h1>
+				<p>buat ini berhari-hari keliatan sederhana tapi cuma ini yang aku bisa saat ini ^^</p>
+				<button onclick=" putarmusic()">click here</button>
+			</div>
+		</div>
+	</div>
+
+
+
+	<!-- header open -->
+	<header>
+		<div class="header">
+			<div class="satu"><h2>THIS LOVE LANGUAGES YOU AND I</h2></div>
+			<div class="dua">
+			</div>
+		</div>
+	</header>
+	<!-- header close -->
+
+
+
+	<!-- jumbotron open -->
+	<section>
+		<div class="judul">
+			<h1>gimana suka gak?</h1>
+			<p>agak alay tapi gpp gak ada kata alay buat bucin</p>
+			<p>duh malu banget, berlebihan gak sih? tapi bodoh amat deh</p>
+			<p>moga suka ya</p>
+		</div>
+		<div class="fotosamping">
+			<img src="img/semangka.jpg" alt="">
+		</div>
+	</section>
+	<!-- jumbotron close -->
+
+
+	<!-- produk open -->
+		<div class="container">
+				<h1 style="text-align: center;">ya cuma kumpulan foto chara kita sih</h1>
+			<div class="row">
+				<div class="col-3 fix-img">
+					<div class="produk">
+						<img src="img/anggur.jpg" class="" alt="">
+					<h3>happy valentine days okey</h3>
+					</div>
+				</div>
+
+				<div class="col-3 fix-img">
+					<div class="produk">
+						<img src="img/nanas.jpg" class="" alt="">
+					<h3>i dont know what i have write here but this from my deeper heart</h3>
+					</div>
+				</div>
+
+
+				<div class="col-3 fix-img">
+					<div class="produk">
+						<img src="img/mangga.jpg" class="" alt="">
+					<h3>i hope you will like this(?)</h3>
+					</div>
+				</div>
+
+
+
+				<div class="col-3 fix-img">
+					<div class="produk">
+						<img src="img/durian.jpg" class="" alt="">
+					<h3>aah >< its make me shy</h3>
+					</div>
+				</div>
+			</div>
+		</div>
+	<!-- produk close -->
+
+
+	<script>
+		var a = document.getElementById('tampil');
+		function putarmusic(){
+			a.style.display = "none";
+			var audio = new Audio('audio.mp3');
+			audio.play();
+		}
+	</script>
+
+<footer>
+	<p>guling-guling dulu makasihnya wkwk</p>
+</footer>
+</body>
+</html>
